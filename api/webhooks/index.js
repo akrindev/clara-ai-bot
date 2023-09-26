@@ -1,4 +1,4 @@
-import { createNodeMiddleware, createProbot } from "probot";
+const { createNodeMiddleware, createProbot } = require("probot");
 
 const app = require("../../app");
 const probot = createProbot();
