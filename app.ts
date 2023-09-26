@@ -1,6 +1,6 @@
 import { Probot } from "probot";
 
-module.exports = (app: Probot) => {
+export const probotApp = (app: Probot) => {
   app.log("Yay! The app was loaded!");
 
   app.on("issues.opened", async (context) => {
@@ -9,3 +9,5 @@ module.exports = (app: Probot) => {
     );
   });
 };
+
+module.exports = probotApp;
