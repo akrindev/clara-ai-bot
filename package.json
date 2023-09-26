@@ -4,6 +4,7 @@
     "start": "probot run ./app.js"
   },
   "dependencies": {
-    "probot": "^12.3.1"
+    "probot": "^12.3.1",
+    "smee-client": "^1.2.3"
   }
 }
