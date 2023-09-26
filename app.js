@@ -1,6 +1,8 @@
-import { Probot } from "probot";
-
-export const probotApp = (app: Probot) => {
+/**
+ * probot
+ * @param {import('probot').Probot} app
+ */
+const probotApp = (app) => {
   app.log("Yay! The app was loaded!");
 
   app.on("issues.opened", async (context) => {

@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "lib": ["ESNext"],
-    "module": "esnext",
-    "target": "esnext",
-    "moduleResolution": "bundler",
-    "moduleDetection": "force",
+    "module": "ES6",
+    "target": "ES6",
+    "moduleResolution": "NodeNext",
+    // "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "composite": true,
@@ -16,7 +16,8 @@
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
     "types": [
-      "bun-types" // add Bun global
+      "bun-types", // add Bun global
+      "@types/node"
     ]
   }
 }
